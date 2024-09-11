@@ -5,7 +5,7 @@ export default function Home() {
   return (
    <main>
       <p>This is the main page!</p>
-      <Link href=".\week-2">Lab 2 page</Link>
+      <Link className = "text-blue-400" href=".\week-2">Lab 2 page</Link>
    </main>
   );
 }
