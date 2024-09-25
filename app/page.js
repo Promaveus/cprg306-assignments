@@ -13,6 +13,10 @@ export default function Home() {
         <li>
           <Link className = "text-blue-400" href=".\week-3">Lab 3 page</Link>
         </li>
+
+        <li>
+          <Link className = "text-blue-400" href=".\week-4">Lab 4 page</Link>
+        </li>
       </ul>
    </main>
   );
