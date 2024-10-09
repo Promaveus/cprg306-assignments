@@ -16,6 +16,7 @@ export default function NewItem() {
     minusStyle = "bg-gray-400 rounded-md m-4 w-10";
   }
   const incrementCounter = () => {
+  
     let newCount = quantity;
 
     if (quantity < 20) {
@@ -25,6 +26,7 @@ export default function NewItem() {
   };
 
   const decrementCounter = () => {
+  
     let newCount = quantity;
 
     if (quantity > 1) {
